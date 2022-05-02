@@ -36,17 +36,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 5-3: JavaScript - Eventos
 - [x] 5-4: JavaScript - Web Storage
 - [x] 5-5: Projeto - Arte com Pixels
-- [ ] 5-6: Projeto (Bônus) - Lista de tarefas
+- [x] 5-6: Projeto (Bônus) - Lista de tarefas
 - [ ] 5-7: Projeto (Bônus) - Meme Generator
-- [ ] 5-7: Projeto (Bônus) - Adivinhe a Cor
+- [x] 5-7: Projeto (Bônus) - Adivinhe a Cor
 - [ ] 5-7: Projeto (Bônus) - Carta Misteriosa
 
 ### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] 6-1: HTML & CSS - Forms
-- [ ] 6-2: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6-2: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6-3: Introdução - CSS Flexbox
-- [ ] 6-3: CSS Flexbox - Parte 1
+- [x] 6-1: HTML & CSS - Forms
+- [x] 6-2: Bibliotecas JavaScript e Frameworks CSS
+- [x] 6-2: Bibliotecas JavaScript e Frameworks CSS
+- [x] 6-3: Introdução - CSS Flexbox
+- [x] 6-3: CSS Flexbox - Parte 1
 - [ ] 6-4: CSS Flexbox Parte 2
 - [ ] 6-5: CSS Responsivo - Mobile First
 - [ ] 6-6: Projeto Trybewarts
