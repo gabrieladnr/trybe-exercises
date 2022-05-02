@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="exercise6.2.css">
+
+    <title>Exercício 6.2. - Biblioteca</title>
+  </head>
+  <body>
+    <div class="container is-max-desktop">
+      <div class="notification is-primary">
+    <h1 class="title"id="title" >Formulário Trybe Trip</h1>
+    <fieldset>
+      <form method="get" >
+        
+        <div class="field">
+          <label class="label">Nome</label>
+          <div class="control">
+            <input class="input" type="text" min="10" max="40" placeholder="Nome Completo" required>            
+          </div>
+          <p class="help">Digite seu nome completo</p>
+        </div>
+
+        
+
+        <div class="field">
+          <label class="label">E-mail</label>
+          <div class="control">
+            <input class="input" type="email" min="10" max="50" placeholder="E-mail" required>
+          </div>
+          <p class="help">Digite seu e-mail</p>
+        </div>
+
+       
+        <p class="color">Destino Preferido:</p>
+        <label for="options1">
+        <input
+          type="radio"
+          id="options1"
+          name="options"
+          type="text"
+          value="Cidade"
+        />Cidade</label>
+
+        <label for="options2"></label>
+        <input 
+          type="radio"
+          id="options2"
+          name="options"
+          type="text"
+          value="Campo"
+        />Campo</label>
+
+       <label for="options3">
+        <input
+          type="radio"
+          id="options3"
+          name="options"
+          type="text"
+          value="Praia"
+        />Praia</label>
+
+        <label for="options4">
+        <input
+          type="radio"
+          id="options4"
+          name="options"
+          type="text"
+          value="Montanhas"
+        />Montanhas</label>
+
+        <p class="color">
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </p>
+        <textarea  class="textarea is-primary"id="openfield" max="500"></textarea>
+
+        <p class="color">Qual a melhor data para realizar sua viagem?</p>
+        <input type="date">
+
+        <p class="color">
+          <label class="checkbox">
+          <input type="checkbox" />
+          Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe?
+        </label>
+        </p>
+
+        <p class="color">
+          <label class="checkbox">
+          <input id="divulgaFoto" type="checkbox"required/>
+          Concordo que imagens das minhas férias poderão ser usadas na
+          divulgação de concursos futuros.
+        </label>
+        </p> 
+     
+
+    </fieldset>
+    <div class="control" class="button">
+      <button class="color"  id="submit" type="submit" disabled>Enviar</button>
+          </div>
+    <div class="control" class="button">
+      <button class="color"  id="clear" type="reset" >Apagar</button>
+    </div>
+    
+  </form>
+</div>
+</div>
+  </body>
+  
+  <script src="exercise6.2.js"></script>
+</html>
