@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 6.1. - Forms</title>
+  </head>
+  <body>
+    <h1 id=""title >Header da página</h1>
+    <fieldset>
+      <form method="get" >
+        <p>
+          Nome:
+          <input
+            id="name"
+            type="text"
+            min="10"
+            max="40"
+            placeholder="Digite seu nome"
+            required
+          />
+        </p>
+
+        <p>
+          E-mail:
+          <input
+            id="email"
+            type="email"
+            min="10"
+            max="50"
+            placeholder="Digite seu e-mail"
+            required
+          />
+        </p>
+
+        <p>Destino Preferido:</p>
+        <input
+          type="radio"
+          id="options1"
+          name="options"
+          type="text"
+          value="Cidade"
+        />
+        <label for="">Cidade</label>
+        <input
+          type="radio"
+          id="options2"
+          name="options"
+          type="text"
+          value="Campo"
+        />
+        <label for="">Campo</label>
+        <input
+          type="radio"
+          id="options3"
+          name="options"
+          type="text"
+          value="Praia"
+        />
+        <label for="">Praia</label>
+        <input
+          type="radio"
+          id="options4"
+          name="options"
+          type="text"
+          value="Montanhas"
+        />
+        <label for="">Montanhas</label>
+
+        <p>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </p>
+        <textarea id="openfield" max="500"></textarea>
+
+        <p>Qual a melhor data para realizar sua viagem?</p>
+        <input type="date">
+
+        <p>
+          <input type="checkbox" />
+          Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe?
+        </p>
+
+        <p>
+          <input id="divulgaFoto" type="checkbox" required />
+          Concordo que imagens das minhas férias poderão ser usadas na
+          divulgação de concursos futuros.
+        </p> 
+     
+
+    </fieldset>
+    <button id="submit" type="submit" disabled>Enviar</button>
+    <button id="clear" type="reset" >Apagar</button>
+  </form>
+  
+  </body>
+  <script src="exercise6.1.js"></script>
+</html>
