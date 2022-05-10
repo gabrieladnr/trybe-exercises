@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 6.2. - Bibliotecas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <script type="text/javascript" src="/jquery/jquery-3.6.0.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  </head>
+  <body>
+    <div class="container">
+    <h1 id=""title >Header da página</h1>
+    <fieldset>
+      <form method="get">
+        <p>
+          Nome:
+          <input
+            id="name"
+            type="text"
+            min="10"
+            max="40"
+            placeholder="Digite seu nome"
+            required
+          />
+        </p>
+
+        <p>
+          E-mail:
+          <input
+            id="email"
+            type="email"
+            min="10"
+            max="50"
+            placeholder="Digite seu e-mail"
+            required
+          />
+        </p>
+
+        <p>Destino Preferido:</p>
+
+        <label for="options1">
+        <input 
+          name="group1"
+          type="radio"
+          id="options1"
+          type="text"
+          value="Cidade"
+          checked
+        /><span>Cidade</span></label>
+
+        <label for="options2">
+        <input
+          name="group1" 
+          type="radio"
+          id="options2"          
+          type="text"
+          value="Campo"
+        /><span>Campo</span></label>
+
+        <label for="options3">
+        <input
+          name="group1" 
+          type="radio"
+          id="options3"          
+          type="text"
+          value="Praia"
+        /><span>Praia</span></label>
+
+        <label for="options4">
+        <input
+          name="group1" 
+          type="radio"
+          id="options4"          
+          type="text"
+          value="Montanhas"
+        /><span>Montanhas</span></label>
+               
+
+        <p>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </p>
+
+        <textarea id="openfield" max="500"></textarea>
+
+        <p>Qual a melhor data para realizar sua viagem?</p>
+        <input type="date">
+
+        <p>
+          <label for="newsletter">
+          <input id="newsletter" type="checkbox" class="filled-in"/><span>
+          Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe?</span>
+        </label>
+        </p>
+
+        <p>
+          <label for="divulgaFoto">
+          <input id="divulgaFoto" type="checkbox" class="filled-in" required /><span></span>
+          Concordo que imagens das minhas férias poderão ser usadas na
+          divulgação de concursos futuros.
+        </label></span>
+        </p> 
+     
+
+    </fieldset>
+    <button id="submit" type="submit" disabled>Enviar</button>
+    <button id="clear" type="reset" >Apagar</button>
+  </form>
+</div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="exercise6.2.js"></script>
+</html>
