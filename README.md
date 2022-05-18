@@ -49,20 +49,20 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 6-3: CSS Flexbox - Parte 1
 - [x] 6-4: CSS Flexbox Parte 2
 - [x] 6-5: CSS Responsivo - Mobile First
-- [ ] 6-6: Projeto Trybewarts
+- [x] 6-6: Projeto Trybewarts
 
 ### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 - [x] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7-2: JavaScript ES6 - Fluxo de exceção e Objetos
 - [x] 7-3: Primeiros passos em Jest
-- [ ] 7-4: Projeto - JavaScript Testes Unitários
+- [x] 7-4: Projeto - JavaScript Testes Unitários
 
 ### Bloco 8: Higher Order Functions do JavaScript ES6
-- [ ] 8-1: JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8-3: JavaScript ES6 - Higher Order Functions - map, filter
-- [ ] 8-4: JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8-5: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] 8-1: JavaScript ES6 - Introdução a Higher Order Functions
+- [x] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [x] 8-3: JavaScript ES6 - Higher Order Functions - map, filter
+- [x] 8-4: JavaScript ES6 - Higher Order Functions - reduce
+- [x] 8-5: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8-6: Projeto - Zoo functions
 
 ### Bloco 9: JavaScript e Testes Assíncronos
